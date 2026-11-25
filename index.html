@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>별빛 리본 크리스마스샵</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <div class="snow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html"><span>★</span> 별빛 리본</a>
+    <nav>
+      <a href="index.html" data-nav="home">홈</a>
+      <a href="product.html?cat=ornament" data-nav="product">소품 보기</a>
+      <a href="order.html" data-nav="order">예약 주문</a>
+    </nav>
+  </header>
+
+  <main class="board">
+    <section class="hero">
+      <h1>올해 크리스마스, 별빛 한 조각을 선물하세요</h1>
+      <p class="lead">
+        작은 골목 끝, 빨간 리본이 걸린 가게가 있어요. 손으로 묶은 리본, 따뜻한 캔들, 솔방울 향 가득한 리스까지.
+        마음에 드는 소품을 고르고 예약해 두시면, 원하시는 날에 예쁘게 포장해서 기다릴게요.
+      </p>
+    </section>
+
+    <section class="shop-photo">
+      <img src="images/shop.svg" alt="빨간 차양과 크리스마스 트리가 보이는 별빛 리본 매장 모습">
+    </section>
+
+    <section>
+      <h2 class="center">소품 둘러보기</h2>
+      <div class="cards" id="category-cards"></div>
+    </section>
+
+    <section class="center">
+      <h2>예약 주문은 이렇게</h2>
+      <p>① 소품 고르기 → ② 주문 버튼 → ③ 이름·연락처·픽업 날짜 입력 → ④ 매장에서 확인 연락 드려요</p>
+      <a class="btn" href="order.html">바로 예약 주문하기</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><span data-shop="name"></span> · <span data-shop="phone"></span></p>
+    <p><span data-shop="address"></span> · <span data-shop="hours"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

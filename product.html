@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>소품 보기 · 별빛 리본 크리스마스샵</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="product">
+  <div class="snow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html"><span>★</span> 별빛 리본</a>
+    <nav>
+      <a href="index.html" data-nav="home">홈</a>
+      <a href="product.html?cat=ornament" data-nav="product">소품 보기</a>
+      <a href="order.html" data-nav="order">예약 주문</a>
+    </nav>
+  </header>
+
+  <main class="board">
+    <div class="tabs" id="cat-tabs"></div>
+    <h1 id="cat-title"></h1>
+    <p class="lead" id="cat-desc"></p>
+
+    <div class="item-buttons" id="item-buttons"></div>
+    <p class="hint" id="pick-hint">👆 품목 버튼을 누르면 가격과 상세 이미지가 나와요.</p>
+
+    <section class="item-detail" id="item-detail" hidden>
+      <img id="detail-img" src="" alt="">
+      <div>
+        <h3 id="detail-name"></h3>
+        <p class="price" id="detail-price"></p>
+        <p id="detail-desc"></p>
+        <div class="buy-row">
+          <div class="qty" aria-label="수량">
+            <button type="button" id="qty-minus" aria-label="하나 빼기">−</button>
+            <output id="qty-out">1</output>
+            <button type="button" id="qty-plus" aria-label="하나 더하기">+</button>
+          </div>
+          <span class="sum" id="detail-sum"></span>
+        </div>
+        <p><button type="button" class="btn" id="order-btn">🎁 주문하기</button></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><span data-shop="name"></span> · <span data-shop="phone"></span></p>
+    <p><span data-shop="address"></span> · <span data-shop="hours"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
