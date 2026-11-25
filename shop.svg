@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+<rect width="800" height="400" fill="#1a4d2e"/>
+<g fill="#fff" opacity=".8"><circle cx="60" cy="40" r="4"/><circle cx="160" cy="90" r="3"/><circle cx="700" cy="60" r="5"/><circle cx="620" cy="30" r="3"/><circle cx="760" cy="150" r="3"/><circle cx="30" cy="180" r="3"/></g>
+<rect x="120" y="110" width="560" height="270" fill="#fff8ec" stroke="#7a4a22" stroke-width="6"/>
+<rect x="160" y="60" width="480" height="60" rx="10" fill="#a8121c" stroke="#5c0a0f" stroke-width="4"/>
+<text x="400" y="102" text-anchor="middle" font-family="Jua, sans-serif" font-size="34" fill="#fff">★ 별빛 리본 크리스마스샵 ★</text>
+<path d="M120 130 L680 130 L660 175 L140 175Z" fill="#a8121c"/>
+<path d="M140 175 q26 22 52 0" fill="#fff" /><path d="M192 175 q26 22 52 0" fill="#fff" /><path d="M244 175 q26 22 52 0" fill="#fff" /><path d="M296 175 q26 22 52 0" fill="#fff" /><path d="M348 175 q26 22 52 0" fill="#fff" /><path d="M400 175 q26 22 52 0" fill="#fff" /><path d="M452 175 q26 22 52 0" fill="#fff" /><path d="M504 175 q26 22 52 0" fill="#fff" /><path d="M556 175 q26 22 52 0" fill="#fff" /><path d="M608 175 q26 22 52 0" fill="#fff" />
+<rect x="160" y="200" width="230" height="160" fill="#ffe9a8" stroke="#7a4a22" stroke-width="6"/>
+<polygon points="275,215 330,330 220,330" fill="#2e7d4a"/><circle cx="275" cy="212" r="10" fill="#d4a017"/>
+<circle cx="255" cy="290" r="6" fill="#a8121c"/><circle cx="295" cy="270" r="6" fill="#d4a017"/><circle cx="270" cy="250" r="5" fill="#a8121c"/>
+<rect x="440" y="200" width="100" height="180" fill="#123d24" stroke="#7a4a22" stroke-width="6"/><circle cx="525" cy="295" r="6" fill="#d4a017"/>
+<circle cx="490" cy="245" r="32" fill="none" stroke="#2e7d4a" stroke-width="14"/>
+<rect x="570" y="200" width="90" height="100" fill="#ffe9a8" stroke="#7a4a22" stroke-width="6"/>
+<path d="M120 380 L680 380" stroke="#fff" stroke-width="8"/>
+</svg>
